@@ -1,0 +1,54 @@
+name: profile-live
+
+# Refresh the live assets from the GitHub API and commit them back.
+#
+# Each run rewrites only assets/stats.svg and the fact pills in
+# assets/banner.svg. README.md and the other assets are hand-written and are
+# never touched by the run.
+
+on:
+  schedule:
+    # every 15 minutes
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-live
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate the live assets from the API
+        run: python scripts/render_profile.py --write --assets-only
+        env:
+          # the generator reads GITHUB_TOKEN from the environment (the runner
+          # has no git credential helper); the token is never written to a
+          # file, a log or the commit message
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push when it changed
+        run: |
+          git config user.name "MrAryanCode"
+          git config user.email "310923460+MrAryanCode@users.noreply.github.com"
+          git add assets/stats.svg assets/banner.svg
+          if git diff --cached --quiet; then
+            echo "assets already current"
+            exit 0
+          fi
+          git commit -m "chore(profile): refresh live assets from the API"
+          git push
