@@ -318,7 +318,7 @@ def render(facts, picked, windowed):
     # chosen self-description words, minus anything on the rule-1 denylist.
     # Both lists live here, so an operator can see the trade in one place.
     ACCOUNT_SCOPE_TOKENS = [
-        "open-source", "cli", "devops", "gateway", "design",
+        "open-source", "cli", "devops", "design",
     ]
     DENYLIST = {"tls", "ssl", "https", "http", "ssh", "dns", "certificates",
                 "certificate", "acme", "letsencrypt", "nginx", "openssl"}

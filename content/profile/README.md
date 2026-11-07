@@ -1,5 +1,5 @@
 <!--profile-face:v1
-tokens: cli, design, devops, gateway, mraryancode, open-source
+tokens: cli, design, devops, mraryancode, open-source
 numbers: repositories=3, active_projects=3, listed_projects=3, stars=2, followers=1, telegram_members=981, stars_certway=2, days_certway=2, stars_MrAryanCode=0, days_MrAryanCode=0, stars_MrAryanCode.github.io=0, days_MrAryanCode.github.io=0
 projects: MrAryanCode/certway, MrAryanCode/MrAryanCode, MrAryanCode/MrAryanCode.github.io
 -->

@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="180" viewBox="0 0 1180 180" role="img" aria-label="Join the Telegram channel">
-<title>Join the Telegram channel</title>
-<defs>
-<linearGradient id="jbg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#101a30"/><stop offset="0.5" stop-color="#0d1428"/><stop offset="1" stop-color="#101c3a"/></linearGradient>
-<linearGradient id="jtg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
-<linearGradient id="jbtn" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
-</defs>
-<a href="https://t.me/MrAryanCode" target="_blank" aria-label="Join the Telegram channel"><g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"><rect x="8" y="8" width="1164" height="164" rx="22" fill="url(#jbg)" stroke="#22314f"/><g transform="translate(70 88)"><circle r="42" fill="url(#jtg)"/><path d="M-20 6 L20 -14 L8 4 L2 2 Z" fill="#ffffff"/><path d="M8 4 L20 -14 L6 -2 Z" fill="#bfe9ff"/></g><text x="140" y="78" font-size="30" font-weight="800" fill="#e8f0ff">Join the channel</text><text x="140" y="108" font-size="16" fill="#9aa7bd">Announcements, write-ups and release notes land first here.</text><g><rect x="140" y="130" width="260" height="44" rx="22" fill="url(#jbtn)"/><text x="270" y="159" text-anchor="middle" font-size="18" font-weight="700" fill="#0a0e1a">Follow @MrAryanCode</text></g><text x="1148" y="72" text-anchor="end" font-size="36" font-weight="800" fill="url(#jbtn)">981</text><text x="1148" y="100" text-anchor="end" font-size="14" letter-spacing="2" fill="#9aa7bd">MEMBERS</text><text x="1148" y="120" text-anchor="end" font-size="13" fill="#6e7b94">live · this run</text></g><g></g></a>
-</svg>
