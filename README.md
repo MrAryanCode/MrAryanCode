@@ -11,7 +11,7 @@ I'm Aryan Miri, a full-stack developer based in Tehran. I work across web, backe
 ## Working with me
 
 - Open to remote full-stack roles, full-time or contract.
-- Based in Tehran (Iran time zone).
+- Based in Tehran (UTC+03:30).
 - Email: [mraryanmiri@gmail.com](mailto:mraryanmiri@gmail.com) · Telegram: [@aryan_61_04](https://t.me/aryan_61_04)
 
 ## In numbers
@@ -26,7 +26,7 @@ I'm Aryan Miri, a full-stack developer based in Tehran. I work across web, backe
 <img src="assets/join.svg" alt="Telegram channel @MrAryanCode" width="100%">
 </a>
 
-Questions about a specific project: open an issue in its repository. Anything else: email me.
+Questions about a specific project: open an issue in its repository. Anything else: message me on [Telegram](https://t.me/aryan_61_04).
 
 <img src="assets/divider.svg" alt="" width="100%">
 
